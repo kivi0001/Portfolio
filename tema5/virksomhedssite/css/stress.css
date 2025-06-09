@@ -1,0 +1,300 @@
+/* TEST */
+.test {
+  padding: 300px;
+}
+
+/* GENERAL */
+body {
+  background-color: #e1d2bd;
+}
+
+@media (min-width: 800px) {
+  body {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+main {
+  max-width: 100%;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* BANNER */
+
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  max-width: 100%;
+  margin-top: 0px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-240%, -50%);
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+/* FONTS */
+h1 {
+  font-family: sans-serif;
+}
+
+li {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: "Lusitana";
+}
+
+/* LOGO */
+.logo h1 {
+  margin-left: 20px;
+  font-size: 2rem;
+  color: white;
+  padding-top: 15px;
+}
+
+.logo p {
+  color: white;
+  letter-spacing: 4.5px;
+  font-size: 1rem;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/* MENU */
+.header-menu {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #595731;
+  padding: 10px 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  margin-right: 50px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+/* MENU DROPDOWN */
+nav ul .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #595731;
+  padding: 10px 0;
+  min-width: 150px;
+  z-index: 20;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+nav ul .dropdown li {
+  padding: 5px 20px;
+}
+
+nav ul .dropdown li a {
+  font-weight: normal;
+}
+
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #595731;
+  color: white;
+  padding: 4% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo-footer {
+  padding-right: 40px;
+}
+
+/* ANDET */
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #d8c5aa;
+  margin-bottom: 5%;
+}
+
+.kontakt {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-family: "Lusitana";
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.kontakt-container {
+  text-align: right;
+  margin-bottom: 5%;
+  margin-right: 35%;
+}
+
+.margin-30 {
+  padding-right: 25%;
+}
+
+.brodtekst {
+  margin: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 150%;
+}
+
+.ekstra-tekst {
+  padding-right: 33%;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  line-height: 150%;
+}
+
+@media (width < 800px) {
+  .mobile-bottom {
+    background-color: #d8c5aa;
+    margin-bottom: 10%;
+  }
+
+  .grid-1-1 {
+    display: none;
+  }
+
+  .ekstra-tekst-2 {
+    padding-left: 17%;
+    padding-right: 17%;
+    line-height: 150%;
+    padding-top: 7%;
+    margin-bottom: 4%;
+  }
+  .kontakt-container {
+    padding-bottom: 7%;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #595731;
+  }
+
+  .logo-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .forening-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+@media (width = 800px) {
+  .mobile-bottom {
+    display: none;
+  }
+}
+
+@media (width > 800px) {
+  .mobile-bottom {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu {
+    display: none;
+    font-family: "karla";
+  }
+  .burger {
+    display: block;
+    margin: 1em;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    background-color: #595731;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+  nav.active .menu a {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}

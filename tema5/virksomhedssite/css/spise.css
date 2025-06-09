@@ -1,0 +1,68 @@
+.sektion_top {
+  background-color: #e1d2bd;
+  padding: 60px 20px;
+}
+
+.sektion_mid {
+  background-color: #d8c5aa;
+  padding: 60px 20px;
+}
+
+.sektion_bottum {
+  background-color: #e1d2bd;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.grid_2_col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.text_box {
+  line-height: 1.6;
+}
+
+.text_box,
+li {
+  font-family: "Lusitana";
+}
+
+.list_tilbyder {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1.2em;
+}
+
+.bottum_styles {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.button {
+  font-family: "Lusitana";
+  width: 100px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+  .grid_2_col {
+    grid-template-columns: 1fr;
+  }
+}

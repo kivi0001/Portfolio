@@ -1,0 +1,32 @@
+/* FOOTER */
+.footer {
+  background-color: #595731;
+  color: white;
+  padding: 4% 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo-footer {
+  padding-right: 40px;
+}
+@media (width < 800px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #595731;
+  }
+
+  .logo-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .forening-footer {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+
+}

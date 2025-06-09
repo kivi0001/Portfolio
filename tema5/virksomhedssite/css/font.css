@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Karla;
+  src: url("../font/Karla-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: Lusitana;
+  src: url("../font/Lusitana-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+ul,
+a,
+menu {
+  font-family: "Karla";
+}
+
+p {
+  font-family: "Lusitana";
+}
+
+/* Full size web font size */
+@media (min-width: 860px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Karla";
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  /* ul,
+  li,
+  menu,
+  nav,
+  a {
+    font-size: 2em;
+  } */
+}
+
+/* Mobil font size */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}

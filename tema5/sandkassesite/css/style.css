@@ -1,0 +1,154 @@
+body{
+    background-color: #F2EAC2;
+}
+
+main{
+    background-color: #D9946C;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+header h1{
+    font-size: 30px;
+    margin-right: 10%;
+}
+
+li{
+    margin: 1.5rem;
+    background-color: #732119;
+    color: #FFFAE2;
+    font-family: 'kalnia';
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.menu a{
+    color: #FFFAE2;
+    text-decoration-line: none;
+}
+
+.menu a:hover{
+    color: #A3BF8F;
+}
+
+.burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #044040;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
+  .burger {
+    display: none;
+  }
+
+footer{
+    background-color: #A3BF8F;
+    height: 100px;
+}
+
+@media (max-width: 800px) {
+    .menu {
+        display: none;
+      }
+      .burger {
+        display: block;
+        margin-top: 3em;
+        margin-right: 2em;
+        margin-left: 1em;
+      }
+      .burger.active .line:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+        transition: 0.2s linear;
+      }
+    
+      .burger.active .line:nth-child(2) {
+        opacity: 0;
+        transition: 0.15s linear;
+      }
+    
+      .burger.active .line:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+        transition: 0.2s linear;
+      }
+    
+      nav.active .menu {
+        display: block;
+        background-color: #D9946C;
+        position: absolute;
+        top: 94px;
+        width: 100%;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+      }
+    
+      nav.active .menu li {
+        margin: 10px 20px;
+      }
+    
+      nav.active .menu a {
+        font-size: 24px;
+        color: #FFFAE2;
+      }
+}
+
+/* TEXT */
+
+@font-face {
+    font-family: 'kalnia';
+    src: url(../font/Kalnia-VariableFont_wdth\,wght.ttf);
+}
+
+
+h1{
+    font-family: 'kalnia';
+    font-size: 60px;
+    margin: 0;
+    color: #044040;
+    margin-top: 8px;
+}
+
+h2{
+    font-family: 'kalnia';
+    color: #044040;
+}
+
+#sektion_2 h2{
+    margin: 2em;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'kalnia';
+    line-height: 1.5em;
+    margin-top: 2em;
+    color: #044040;
+}
+
+footer p{
+    font-style: italic;
+    margin-top: 0;
+    padding-top: 4rem;
+    padding-left: 1rem;
+}
+
+/* IMAGES */
+
+img{
+    border-radius: 5px;
+    border: solid #FFFAE0 4px;
+}
+
+.logo img{
+    border: none;
+}

@@ -1,0 +1,140 @@
+/* TEST */
+.test {
+  padding: 300px;
+}
+
+/* GENERAL */
+main {
+  max-width: 80%;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* BANNER */
+
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  max-width: 100%;
+  margin-top: 0px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-240%, -50%);
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+/* FONTS */
+/* h1{
+    font-family: sans-serif;
+}
+
+li{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+} */
+
+/* LOGO */
+.logo h1 {
+  margin-left: 20px;
+  font-size: 2rem;
+  color: white;
+  padding-top: 15px;
+}
+
+.logo p {
+  color: white;
+  letter-spacing: 4.5px;
+  font-size: 1rem;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/* MENU */
+.header-menu {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #595731;
+  padding: 10px 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  margin-right: 50px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+/* MENU DROPDOWN */
+nav ul .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #595731;
+  padding: 10px 0;
+  min-width: 150px;
+  z-index: 20;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+nav ul .dropdown li {
+  padding: 5px 20px;
+}
+
+nav ul .dropdown li a {
+  font-weight: normal;
+}
+
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+/* FOOTER */
+/* .footer{
+    background-color: #595731;
+    color: white;
+    padding: 4% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.logo-footer{
+    padding-right: 40px;
+} */

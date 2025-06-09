@@ -1,0 +1,43 @@
+main {
+  background-color: #e1d2bd;
+  padding: 50px 0 50px 0;
+}
+
+.section_priser {
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #d8c5aa;
+  color: #000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.h1_priser {
+  text-align: center;
+}
+
+.section_priser h1 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.priser_grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px 40px;
+}
+
+.priser_grid > .priser:last-child {
+  margin-bottom: 30px;
+}
+
+.afbud_info {
+  border-top: 2px dotted #999;
+  padding-top: 16px;
+  font-style: italic;
+  margin-top: 30px;
+  text-align: center;
+}

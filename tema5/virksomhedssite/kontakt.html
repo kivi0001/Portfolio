@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="login.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>TEMA 5</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/kontakt.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/hedere.css" />
+    <script src="menu.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-menu">
+        <div class="logo">
+          <h1>Allan Blaabjerg</h1>
+          <p>PSYKOLOG</p>
+        </div>
+
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">FORSIDE</a></li>
+
+            <li class="has-dropdown">
+              <a href="">YDELSER ▾</a>
+              <ul class="dropdown">
+                <li><a href="angst.html">Angst</a></li>
+                <li><a href="stress.html">Stress</a></li>
+                <li>
+                  <a href="spiseforstyrrelser.html">Spiseforstyrrelser</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-dropdown">
+              <a href="">PRAKTISK ▾</a>
+              <ul class="dropdown">
+                <li><a href="opstart.html">Opstart</a></li>
+                <li><a href="priser.html">Priser</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+              </ul>
+            </li>
+
+            <li><a href="fagfolk.html">TIL FAGFOLK</a></li>
+
+            <li class="has-dropdown">
+              <a href="">OM MIG ▾</a>
+              <ul class="dropdown">
+                <li><a href="terapeutisk.html">Terapeutisk Tilgang</a></li>
+                <li>
+                  <a href="erfaring-og-uddannelse.html"
+                    >Erfaring & Uddannelse</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="banner-img">
+        <h1>Kontakt</h1>
+      </div>
+    </header>
+    <main>
+      <section class="kontakt1_1">
+        <div class="kontakt">
+          <h1>Kontakt</h1>
+          <p>Psykolog Allan Blaabjerg</p>
+          <p>Falkoner Allé 63, 3. sal 2000 Frederiksberg</p>
+          <p>Tlf.: 2989 5075</p>
+          <p>Mail:psykolog@allanblaabjerg.dk</p>
+          <p>CVR-nummer: 34 53 99 60</p>
+          <p>Her finder du min klinik på Google Maps</p>
+        </div>
+        <div class="img">
+          <img src="./img/allanblaabjerg.webp" alt="Allan" />
+        </div>
+      </section>
+      <section class="formsection">
+        <h2>Har du spørgsmål? kontakt mig her</h2>
+        <form class="kontakt_form">
+          <div class="form">
+            <div class="form-group">
+              <label class="blok" for="name">Navn</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                placeholder="Navn"
+              />
+            </div>
+            <div class="form-group">
+              <label class="blok" for="name">Email</label>
+              <input
+                id="Email"
+                name="Email"
+                type="text"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <label class="blok" for="name">Din besked</label>
+              <input
+                id="Besked"
+                name="Besked"
+                type="text"
+                required
+                placeholder="Din besked"
+              />
+            </div>
+            <button id="Send" type="reset">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>
+        <h1>KONTAKT</h1>
+        <br />
+        <p>
+          Falkoner Allé 63, 3. sal 2000 Frederiksberg <br />
+          <br />
+          Tlf.: 29 89 50 75
+          <br />
+          <br />
+          Email: psykolog@allanblaabjerg.dk
+          <br />
+          <br />
+          CVR-nr. 34 53 99 60
+        </p>
+      </div>
+      <div>
+        <img
+          src="img/logo.webp"
+          alt="Allan Blaabjerg Logo"
+          class="logo-footer"
+        />
+      </div>
+      <div>
+        <img
+          src="img/forening.png"
+          alt="Dansk Psykolog Forening"
+          class="forening-footer"
+        />
+      </div>
+    </footer>
+    <script src="menu.js"></script>
+  </body>
+</html>
