@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'open sans';
+    src: url(../fonts/opensans-variablefont_wdthwght-webfont-kopi.woff2);
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat-VariableFont_wght.woff2);
+}
+header{
+    color: rgb(175, 212, 242);
+    margin-top: 2em;
+}
+a{
+    color: rgb(175, 212, 242);
+}
+a:hover{
+    color: aliceblue;
+}
+body{
+    background-color: rgb(41, 41, 86);
+    color: rgb(221, 235, 247);
+    font-family: 'montserrat';
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+main{
+    margin: 1em;
+}
+h1,h2,h3{
+    font-family: 'open sans';
+}
+h1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: rgb(39, 22, 93);
+    border: solid rgb(49, 117, 195);
+    padding: 3%;
+    border-radius: 0.5em;
+}
+h2{
+    margin-top: 1em;
+}
+h3{
+    font-style: italic;
+    margin: 0%;
+}
+p{
+    line-height: 1.6em;
+}
+dl{
+    padding: 5%;
+}
+dt{
+    font-weight: 600;
+}
+img{
+    max-width: 100%;
+}
+footer{
+    font-style: italic;
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.min_computer{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(0, 136, 255);
+    text-decoration: none;
+    margin-top: 1.5em;
+    padding: 1em;
+    color: rgb(206, 215, 222);
+    border-radius: 1em;
+}
+.min_computer:hover{
+    background-color: rgb(64, 92, 145);
+}
+.min_computer:visited{
+    color: rgb(155, 220, 234);
+}
+.w3schools{
+    color: rgb(175, 212, 242);
+}
+.col-min{
+    padding: 2em;
+    text-align: center;
+    border-radius: 1em;
+    border: solid white;
+    margin: 1em;
+}
+.col-min ul{
+        list-style-type: none;
+        padding-left: 0%;
+    }
+
+.col-image{
+    border: solid white;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+ }
+ .grid_3-2{
+    background-color: rgb(14, 26, 48);
+    padding: 2em;
+    margin: 1em;
+    border-radius: 0.5em;
+ }
+ .windows{
+    border: solid rgb(49, 117, 195);
+    border-radius: 0.5em;
+ }
+ .grid_2-3{
+    background-color: rgb(14, 26, 48);
+    border-radius: 0.5em;
+    padding: 2em;
+    margin: 1em
+ }
+ .mac{
+    border: solid rgb(49, 117, 195);
+    border-radius: 0.5em;
+ }
+ .grid_5-3 .col{
+    background-color: rgb(14, 26, 48);
+    border-radius: 0.5em;
+    padding: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+ }
+ .tablet{
+    border: solid rgb(49, 117, 195);
+    border-radius: 0.5em;
+ }
+ .flex_col{
+    background-color: rgb(24, 24, 58);
+    border-radius: 0.5em;
+    padding: 1em;
+    margin-bottom: 1em;
+ }
+ .flex_col img{
+    border-radius: 0.5em;
+ }
+ section.grid_1-1{
+    background-color: rgb(14, 26, 48);
+    border-radius: 0.5em;
+    margin: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+ }
+ section.grid_1-1 img{
+    justify-content: center;
+ }
+ section.grid_1-1 p{
+    padding-left: 1em;
+    padding-right: 1em;
+ }
+ section.grid_1-1 h2{
+    text-align: center;
+
+ }
+ section.col h2{
+    text-align: center;
+ }
