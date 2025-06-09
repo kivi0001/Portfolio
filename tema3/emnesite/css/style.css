@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'garamond';
+    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-VariableFont_wght.woff2);
+}
+@font-face {
+    font-family: 'cormorant';
+    src: url(../fonts/Cormorant_SC/CormorantSC-Regular.woff2);
+}
+
+      
+      header {
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+      }
+      
+      .logo img {
+        width: 50px;
+        height: 50px;
+        border: solid #27a4ED;
+        border-radius: 50%;
+        margin-left: 1em;
+      }
+      
+      nav {
+        display: flex;
+        align-items: center;
+      }
+      
+      .menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu li {
+        margin-right: 20px;
+      }
+      
+      .menu li:last-child {
+        margin-right: 0;
+      }
+      
+      .menu a {
+        display: block;
+        padding: 2px;
+        color: black;
+        text-decoration: none;
+        transition: color 0.3s;
+        text-align: end;
+      }
+      
+      .menu a:hover {
+        color: #27a4ED;
+      }
+      
+      .burger {
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+      }
+      
+      .burger .line {
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        margin-bottom: 5px;
+        transition: 0.2s linear;
+      }
+      .burger {
+        display: none;
+      }
+
+      @media (max-width: 800px) {
+        .menu {
+          display: none;
+          font-family: 'cormorant';
+        }
+        .burger {
+          display: block;
+          margin: 1em;
+        }
+        .burger.active .line:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px);
+          transition: 0.2s linear;
+        }
+      
+        .burger.active .line:nth-child(2) {
+          opacity: 0;
+          transition: 0.15s linear;
+        }
+      
+        .burger.active .line:nth-child(3) {
+          transform: rotate(-45deg) translate(5px, -5px);
+          transition: 0.2s linear;
+        }
+      
+        nav.active .menu {
+          display: block;
+          background-color: #27a4ED;
+          position: absolute;
+          top: 94px;
+          left: 0;
+          width: 100%;
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          z-index: 1;
+        }
+      
+        nav.active .menu li {
+          margin: 10px 20px;
+        }
+      
+        nav.active .menu a {
+          font-size: 24px;
+          color: #ffffff;
+        }
+      }
+      
+
+
+header{
+    margin-left: 1em;
+    margin-right: 1em;
+    border-bottom: 1px solid #ffffff;
+}
+
+body{
+    background-color: #245D88
+}
+h1{
+    color: #ffffff;
+    font-family: 'cormorant';
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2{
+    color: #ffffff;
+    font-family: 'cormorant';
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    color: #ffffff;
+    font-family: 'garamond';
+    text-align: center;
+}
+.artikeloverskrift{
+  color: #ffffff;
+  font-family: 'garamond';
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+p{
+    color: #ffffff;
+    font-family: 'garamond';
+    font-size: 20px;
+}
+main p{
+    text-align: center;
+    margin: 2em;
+}
+aside{
+    border: solid #27a4ED;
+    margin: 2em;
+    background-color: #EEE6FF;
+}
+aside p{
+    color: black;
+}
+aside h3{
+    color: black;
+}
+.intro{
+    font-style: italic;    
+}
+figcaption{
+    color: white;
+    font-family: 'garamond';
+    font-size: 10PX;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
+    margin-top: 10em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-top: 1px solid #ffffff;
+}
+footer h3{
+    text-align: left;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 16px;
+    margin: 1px
+}
+footer a{
+    color: #9ad6f8;
+    font-family: 'garamond';
+    font-size: 16px;
+}
+footer a:hover{
+    color: #EEE6FF;
+}

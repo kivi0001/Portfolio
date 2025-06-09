@@ -1,0 +1,248 @@
+img {max-width: 100%;
+    border: solid black;
+    border-width: 1px;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.box-grid_1-1{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+}
+@media (max-width: 800px) {
+    
+.venusbox-grid_1-1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2em;
+}
+.venusbox-grid_1-1 h2{
+    padding: 2em;
+}
+.box2-2-grid_1-1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em;
+}
+.box2-2-grid_1-1 h2{
+    padding: 1em;
+
+}
+.grid_1-1-1 figure{
+    width: 400px;
+}
+
+}
+
+.box-grid_1-1 h2{
+    padding: 2em;
+}
+
+.box2-grid_1-1{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+.box2-grid_1-1 h2{
+    padding: 1em;
+
+}
+div h3{
+    font-style: italic;
+}
+.grid_1-1-1 div{
+    border: solid #27A4ED;
+    background-color: #FAF3EF;
+    margin: 1em;
+}
+.grid_1-1-1 div h2{
+    margin: auto;
+    color: black;
+}
+.grid_1-1-1 div figure{
+    margin: 1em;
+}
+.grid_1-1-1 div figcaption{
+    color: black;
+}
+.grid_1-1-1-1 div{
+    border: solid black;
+    background-color: #8BDAFE;
+    margin: 1em;
+}
+.grid_1-1-1-1 div figcaption{
+    color: black;
+}
+.grid_1-1-1-1 div figure{
+    margin: 1em;
+}
+.grid_1-1-1-1 div h2{
+    margin: auto;
+    color: black;
+}
+.articlegrid_1-1-1 div{
+    border: solid black;
+    background-color: #8BDAFE;
+    margin: 1em;
+}
+.articlegrid_1-1-1 div h2{
+    margin: auto;
+    color: black;
+}
+.articlegrid_1-1-1 div figure{
+    margin: 1em;
+}
+.articlegrid_1-1-1 div figcaption{
+    color: black;
+}
+.undersite23grid_1-1-1 h1{
+    margin: 10px;
+}
+
+
+@media (min-width: 800px){
+
+    .grid_1-1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+    }
+    .grid_1-1-1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2em;
+        grid-row: 4;
+    }
+    .box-grid_1-1{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 665px;
+    }
+    .venusbox-grid_1-1 h2{
+        padding: 2em;
+    }
+    .venusbox-grid_1-1{
+        height: 665px;;
+    }
+    .box2-grid_1-1{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 260px;
+        height: 506px;
+    }
+    .box2-grid_1-1 h2{
+        padding-top: 1px;
+    }
+    .box2-2-grid_1-1 h2{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .box2-2-grid_1-1{
+        justify-content: space-between;
+        width: 260px;
+        height: 506px;
+    }
+    .rolegrid_1-1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+    }
+    .rolegrid_1-1-1 figure{
+        grid-column: 3;
+        grid-row: span 2;
+    }
+    .rolegrid_1-1-1 h1{
+        font-size: 50px;
+        grid-column: span 2;
+    }
+    .undersite23grid_1-1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .undersite23grid_1-1-1 h1{
+        font-size: 50px;
+        grid-column: span 2;
+        margin-top: 1em;
+    }
+    .undersite23grid_1-1-1 p{
+        grid-column: span 2;
+    }
+    .undersite23grid_1-1-1 figure{
+        grid-row: span 2;
+    }
+    .rolegrid_1-1-1 p{
+        grid-row: 2;
+        grid-column: span 2;
+    }
+    aside{
+        padding: 10px;
+        max-width: 500px;
+    }
+    aside h3{
+        text-align: left;
+        margin: 1px;
+    }
+    aside p{
+        text-align: left;
+        margin: 1px
+    }
+    .articlegrid_1-1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+    }
+    .lastgrid_1-1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .lastgrid_1-1-1 h1 {
+        font-size: 50px;
+        grid-column: span 2;
+        margin-bottom: 1em;
+    }
+    .lastgrid_1-1-1 figure{
+        grid-row: span 2;
+        margin-top: 3em;
+    }
+    .lastgrid_1-1-1 .tekst{
+        grid-row: span 3;
+    }
+    .lastgrid_1-1-1 .kritisk{
+        grid-column: 3;
+    }
+    ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        font-family: 'garamond';
+        font-weight: bold;
+        list-style-type: none;
+        text-align: center;
+    }
+    li{
+        border: solid #27A4ED;
+        background-color: #FAF3EF;
+        margin: 1em;
+        padding: 1em;
+    }
+    a{
+        color: black;
+        text-decoration-line: none;
+
+    }
+    a:hover{
+        color: #8BDAFE;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 70px;
+    }
+
+}
